@@ -22,12 +22,12 @@ from nltk.stem.porter import PorterStemmer
 st.title("To extract  reviews of a product from AMAZON and perform sentiment analysis ")
 st.write("Logistic modeling approach has been adapted to perform sentiment analysis. ")
 
-#st.image("bookshelf.jpg", width=700)  ##### Image below title
+st.image("bookshelf.jpg", width=700)  ##### Image below title
 
 
 ##########################     SIDEBAR HEADER CONTENT    ########################################
-#st.sidebar.image("sentiment-analysis.png", width=300)  ####Image for sidebar
-#st.sidebar.write("To extract reviews of a product from AMAZON and perform sentiment analysis")
+st.sidebar.image("sentiment-analysis.png", width=300)  ####Image for sidebar
+st.sidebar.write("To extract reviews of a product from AMAZON and perform sentiment analysis")
 
 
 vec_file=pickle.load(open('vector.pkl','rb'))
@@ -87,7 +87,7 @@ st.sidebar.title("**About**")  ######### ABOUT Section
 st.sidebar.header("Guided by:-")
 st.sidebar.title("*****")
 st.sidebar.title("Made With Streamlit by")
-#st.sidebar.image("streamlitlogo1.png", width=180)    ####  Displaying streamlit logo
+st.sidebar.image("streamlitlogo1.png", width=180)    ####  Displaying streamlit logo
 st.sidebar.header("P-88 Group 5:")
 st.sidebar.write("***Priyanka***" ,"," ,"***Prithvi***")
 st.sidebar.write("***Gurpinder***" ,"," ,"***Pooja***")
